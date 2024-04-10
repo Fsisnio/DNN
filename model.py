@@ -11,7 +11,7 @@ torch.manual_seed(0)
 
 
 
-data = pd.read_csv(r"C:\Users\DELL\Documents\dato.csv") 
+data = pd.read_csv(dato.csv)
 X = data.iloc[:,:-1]
 y = data["ind"]
 X_new, X_test, \
